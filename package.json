@@ -1,0 +1,29 @@
+{
+  "name": "pikpak-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanpengy/pikpak-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanpengy/pikpak-server/issues"
+  },
+  "homepage": "https://github.com/fanpengy/pikpak-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dateformat": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1"
+  }
+}
