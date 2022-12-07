@@ -1,5 +1,4 @@
 let mysql = require('mysql')
-console.log(process.env)
 let db = mysql.createPool({
     host: process.env.MYSQL_HOST,     //数据库IP地址
     user: process.env.MYSQL_USER,          //数据库登录账号

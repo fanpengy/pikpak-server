@@ -16,12 +16,12 @@ app.use(cors())              //配置跨域，必须在路由之前
 app.use(accountService)
 
 
-// const httpsServer = https.createServer(options, app)
+const httpsServer = https.createServer(options, app)
 
-app.listen(3600, () => {
-    console.log('服务器启动成功')
-})
-
-// httpsServer.listen(3600, () => {
-//     console.log('服务器启动成功');
+// app.listen(3600, () => {
+//     console.log('服务器启动成功')
 // })
+
+httpsServer.listen(3600, () => {
+    console.log('服务器启动成功');
+})
